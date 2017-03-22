@@ -1,10 +1,10 @@
 html {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 body {
     font-family: "Unista";
-  
+      font-size: 1rem;
 }
 
 h2 {
@@ -62,20 +62,56 @@ header {
     height: 120px;
 }
 
+.green_c {
+    color: #469514;
+}
+
 h2.black_c.lin.center_text {
     position: relative;
         padding-bottom: 22px;
 }
 
 h2.lin:before {
-  content: '';
+       content: '';
     display: inline-block;
-    width: 32%;
-    height: 100%;
-    background: #f6fb10;
+    width: 150%;
+    height: 110%;
+    background: url(../images/ruler_r.png) no-repeat;
     position: absolute;
-    bottom: 5px;
-    left: 0;
+    bottom: -20px;
+    left: -161%;
+    background-position: 0 0;
+    /* transform: rotateZ(180deg); */
+    transform-origin: 0;
+    background-position-x: 100%;
+}
+
+h2.lin:after {
+       content: '';
+    display: inline-block;
+    width: 150%;
+    height: 110%;
+    background: url(../images/ruler.png) no-repeat;
+    position: absolute;
+    bottom: -23px;
+    left: 111%;
+    background-position: 0% 0;
+}
+
+.col-xs-12.pad_all_0.in_cen {
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2.black_c.lin.center_text {
+    position: relative;
+    padding-bottom: 22px;
+    display: inline-block;
+}
+
+.in_cen {
+    text-align: center;
 }
 
 .center_text {
