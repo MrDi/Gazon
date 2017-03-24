@@ -9,6 +9,17 @@
 
 }
 
+@font-face{
+
+    font-family: 'BebasNeueBook';
+
+    src: url('../fonts/BebasNeueBook.ttf');
+
+    font-weight: bold;
+    font-style: normal;
+
+}
+
 
 @font-face{
 
